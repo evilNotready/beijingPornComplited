@@ -1,0 +1,217 @@
+body {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    position: relative;
+    max-width: 100vw;
+}
+
+.imgBack {
+    height: 100%;
+    background-image: url(bg.jpeg);
+    background-size: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.header {
+    /* width: 100%; */
+    font-family: 'Open Sans', sans-serif;
+}
+
+.nav {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.navText1:hover {
+    color: rgb(46, 63, 63);
+    transition: color 0.5s linear;
+}
+
+.navText1 {
+    color: black;
+    font-size: 50px;
+}
+
+.navText {
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    transition: color 0.5s linear;
+}
+
+.navText:hover {
+    color: rgb(46, 63, 63);
+}
+
+.navigation {
+    display: flex;
+    gap: 35px;
+}
+
+.headerDown {
+    position: relative;
+}
+
+.headerTitle {
+    font-family: 'Metal Mania', cursive;
+    font-size: 64px;
+    margin-left: 98px;
+    margin-top: 120px;
+}
+
+.title1 {
+    font-family: 'Metal Mania', cursive;
+    font-size: 16px;
+    margin-left: 98px;
+    margin-top: 1px;
+}
+
+.join {
+    font-size: 40px;
+    background-color: black;
+    padding: 9px 20px;
+    color: white;
+    margin-left: 100px;
+    border-radius: 8px;
+    position: relative;
+    top: 60px;
+}
+
+.imgTitle {
+    max-width: 400px;
+    float: right;
+    padding: 1px;
+    filter: drop-shadow(22px -8px 9px rgba(0, 0, 0, 0.25));
+    border-radius: 185px;
+    position: relative;
+    top: -300px;
+    /* width: 370px;
+    height: 441px;
+    left: 845px; */
+}
+
+.text {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: -300px;
+}
+
+.about {
+    font-size: 48px;
+}
+
+.textAbout {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.cardImage {
+    display: flex;
+    justify-content: center;
+}
+
+.cardTitle {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    background-color: #F1F5F9;
+    border-radius: 16px;
+    width: 350px;
+    height: 350px;
+    margin-right: 45px;
+    align-items: center;
+    position: relative;
+    top: -200px;
+    left: 20px;
+}
+
+.cardHolder {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.cardImg {
+    width: 279px;
+    height: 306px;
+    flex: none;
+    order: 0;
+    lex-grow: 0;
+}
+
+.cardText {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    font-size: 48px;
+    margin-top: 100px;
+    margin-bottom: -100px;
+}
+
+.faq {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 72px;
+}
+
+.sleep {
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 58px;
+    margin-left: 95px;
+    margin-bottom: 31px;
+}
+
+.money {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    margin-left: 95px;
+    margin-bottom: 31px;
+}
+
+.technology {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    margin-left: 95px;
+    margin-bottom: 31px;
+}
+
+.buy {
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 58px;
+    margin-left: 95px;
+    margin-bottom: 31px;
+}
+
+.gay {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    margin-left: 95px;
+    margin-bottom: 82px;
+    color: rgb(182, 171, 171);
+}
+
+.notGay {
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    margin-left: 95px;
+    margin-bottom: 82px;
+    color: rgb(182, 171, 171);
+}
